@@ -1,0 +1,7 @@
+Hôtel (id_hotel PK, nom, adresse, nombre_etoiles, zone)
+|
+|--< Chambre (id_chambre PK, type_chambre, prix_nuit, id_hotel FK)
+|
+Client (id_client PK, nom, prénom, adresse, numéro_tel)
+|
+|--< Réservation (id_reservation PK, date_debut, date_fin, id_client FK, id_chambre FK)
